@@ -1,14 +1,37 @@
 package taskJUnit;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Employee {
 
-	public double calculateSalary(double baseRate, double exprianceRatio, double bonus) {
+    private double baseRate;
+    private double exprianceRatio;
+    private double bonus;
+    
+    public Employee(double firstParameter, double secondParameter, double thirdParameter) {
+		this.baseRate = firstParameter;
+		this.exprianceRatio = secondParameter;
+		this.bonus = thirdParameter;
+		
+	}
+
+	public void calculateSalary(double baseRate, double exprianceRatio, double bonus) {
+       this.baseRate = baseRate;
+       this.exprianceRatio = exprianceRatio;
+       this.bonus = bonus;
+    }
+
+    public int getResult(){
+       return (int) (baseRate * exprianceRatio + bonus);
+    }
+	/*public double calculateSalary(double baseRate, double exprianceRatio, double bonus) {
 		return baseRate * exprianceRatio + bonus;
 	}
 
 	public double calculateFinancialAid(double baseRate, double percentOfBaseRate) {
 
-		return baseRate * percentOfBaseRate;
+		return baseRate * percentOfBaseRate/100;
 	}
 
 	public double calculateDetailsPerHour(int details, double hours) {
@@ -32,7 +55,7 @@ public class Employee {
 
 	}
 
-	/* public double calculateExperianceOnThePosition(String d1, String d2) {
+	/*public double calculateExperianceOnThePosition(String d1, String d2) {
 	 SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
 	 Date date1 = null;
 	 Date date2 = null;
