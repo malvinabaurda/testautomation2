@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testautomation by groups" duration-ms="59" started-at="2017-03-15T12:42:33Z" finished-at="2017-03-15T12:42:33Z">
+    <groups>
+      <group name="Salary">
+        <method signature="EmployeeTestGroups.testCalculateBonus1()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateBonus1" class="taskTestNG.EmployeeTestGroups"/>
+        <method signature="EmployeeTestGroups.testCalculateFinancialAid1()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateFinancialAid1" class="taskTestNG.EmployeeTestGroups"/>
+        <method signature="EmployeeTestGroups.testCalculateSalary()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateSalary" class="taskTestNG.EmployeeTestGroups"/>
+        <method signature="EmployeeTestGroups.testCalculateTaxesOnNaturalPerson1()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateTaxesOnNaturalPerson1" class="taskTestNG.EmployeeTestGroups"/>
+      </group> <!-- Salary -->
+    </groups>
+    <test name="GRP-Salary" duration-ms="59" started-at="2017-03-15T12:42:33Z" finished-at="2017-03-15T12:42:33Z">
+      <class name="taskTestNG.EmployeeTestGroups">
+        <test-method status="PASS" signature="testCalculateBonus1()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateBonus1" duration-ms="23" started-at="2017-03-15T14:42:33Z" finished-at="2017-03-15T14:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateBonus1 -->
+        <test-method status="PASS" signature="testCalculateFinancialAid1()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateFinancialAid1" duration-ms="2" started-at="2017-03-15T14:42:33Z" finished-at="2017-03-15T14:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateFinancialAid1 -->
+        <test-method status="PASS" signature="testCalculateSalary()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateSalary" duration-ms="2" started-at="2017-03-15T14:42:33Z" finished-at="2017-03-15T14:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateSalary -->
+        <test-method status="PASS" signature="testCalculateTaxesOnNaturalPerson1()[pri:0, instance:taskTestNG.EmployeeTestGroups@174d20a]" name="testCalculateTaxesOnNaturalPerson1" duration-ms="2" started-at="2017-03-15T14:42:33Z" finished-at="2017-03-15T14:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTaxesOnNaturalPerson1 -->
+      </class> <!-- taskTestNG.EmployeeTestGroups -->
+    </test> <!-- GRP-Salary -->
+  </suite> <!-- testautomation by groups -->
+</testng-results>
